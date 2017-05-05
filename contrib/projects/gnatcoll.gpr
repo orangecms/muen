@@ -8,12 +8,9 @@ library project GnatColl is
 
    for Languages use ("Ada", "C");
 
-   case BUILD is
-      when "static" =>
-         for Source_Dirs use ("../build/include/gnatcoll/gnatcoll.static");
-         for Library_Dir use "../build/lib/gnatcoll/gnatcoll.static";
-         for Library_Kind use "static";
-   end case;
+   for Source_Dirs use ("/usr/include/gnatcoll/gnatcoll.relocatable");
+   for Library_Dir use "/usr/lib/gnatcoll/gnatcoll.relocatable";
+   for Library_Kind use "relocatable";
 
    for Library_Name use "gnatcoll";
 

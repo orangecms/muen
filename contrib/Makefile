@@ -1,7 +1,6 @@
 RECIPES =    \
 	ada-bfd  \
 	alog     \
-	gnatcoll \
 	lsc      \
 	xia
 
