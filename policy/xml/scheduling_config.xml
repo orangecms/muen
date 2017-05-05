@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <mugenschedcfg cpuCount="2" tickRate="100000">
  <simultaneousDomains>
   <exclude>
