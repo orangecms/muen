@@ -3,4 +3,4 @@
 	url = ../muen/linux.git
 [submodule "tools/mugenschedcfg"]
 	path = tools/mugenschedcfg
-	url = ../muen/mugenschedcfg.git
+	url = https://github.com/orangecms/mugenschedcfg.git
