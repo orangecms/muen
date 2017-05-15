@@ -9,8 +9,10 @@ USE="bootstrap -shared -gtk" emerge dev-ada/gprbuild
 # rebuild to be used as a shared lib, no gtk, but projects needed for Muen
 USE="-bootstrap -gtk projects" emerge dev-ada/gnatcoll dev-ada/gprbuild
 emerge dev-ada/xmlada htmltidy # for building libmuxml
-USE=cairo emerge sci-visualization # for graphics in PDFs from `mugenschedcfg`
-emerge sys-fs/mtools dev-libs/libisoburn # for creating images
+# for graphics in PDFs from `mugenschedcfg`
+USE=cairo emerge sci-visualization/gnuplot
+# for creating images with grub-mkrescue
+emerge sys-fs/mtools dev-libs/libisoburn
 ```
 
 ### Additional tools not included
